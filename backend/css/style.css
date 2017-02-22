@@ -1,0 +1,244 @@
+
+/*-- Reset-Code --*/
+html, body {
+    height: 100%;
+    margin: 0;
+    font-size: 20px;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	background: #f5f5f5;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body a {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	text-decoration: none;
+}
+
+body a:hover {
+	text-decoration: none;
+}
+
+body a:focus, a:hover {
+	text-decoration: none;
+}
+
+input[type="button"], input[type="submit"] {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: #028fcc;
+}
+
+p {
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+label {
+	margin: 0;
+}
+
+
+a:focus, a:hover {
+	text-decoration: none;
+	outline: none;
+}
+
+/*-- //Reset-Code --*/
+/***************structure Page***********************/
+
+#left {
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    outline: 1px solid;
+    background: #333;
+}
+#right {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    background: #f5f5f5;
+}
+
+/*************************************/
+.menu{
+	height: 100%;
+     
+    
+    background-color: #333;
+    
+    transition: 0.5s;
+    padding-top: 60px;
+    }
+.menu img{
+	width: 250px;
+	margin: auto;
+}
+
+
+
+nav{
+	width: 100%;
+	margin-top: 80px;
+	margin-bottom: 50px;
+
+}
+nav ul li{
+ padding: 10px;
+ margin-left:20px; 
+ border-bottom: 1px solid #757575;
+}
+nav ul li a{
+	width: 100%;
+	font-size:18px;
+	font-family: "Lato", sans-serif;
+	color: white;
+	padding: 20px 0px 20px 20px;
+}
+nav ul li hove{
+	background: rgba(255,255,255,0.5);
+
+}
+
+.import{
+	padding: 15px 20px 15px 20px;
+    background: #FF5252;
+    color: white;
+    border: none;
+    font-size: 14px;
+    margin: 20px 0px 0px 75px;
+    font-weight: bolder;
+    
+}
+.import:hover{
+	color: #FF5252;
+	background: white;
+
+}
+
+/********************all********************/
+
+.all{
+	width: 100%;
+	background: #f5f5f5;
+	padding: 70px 20px 60px 20px;
+	overflow: none;
+}
+.all img{
+	width: 100%;	
+}
+.all h3{
+	color: #028fcc;
+	text-align: left;
+	margin-bottom: 5px;
+
+}
+.all h1{
+	margin-bottom: 25px;
+
+}
+
+.all h5{
+	text-align: left;
+}
+.homev{
+	color: white;
+    border: 2px solid #54c9e9;
+    padding: 5px;
+    border-radius: 5px;
+    background: #54c9e9;
+    margin-right: 15px;
+}
+.drawv{
+	color: white;
+    border: 2px solid #c4e954;
+    padding: 6px;
+    border-radius: 5px;
+    background: #c4e954;
+    margin-right: 15px;
+}
+.awayv{
+	color: white;
+    border: 2px solid #FF5252;
+    padding: 6px;
+    border-radius: 5px;
+    background: #FF5252;
+    margin-right: 15px;
+}
+
+.add{
+	padding:10px;
+    background: #FF5252;
+    color: white;
+    border: none;
+    font-size: 12px;
+    margin: 5px;
+    font-weight: bolder;
+}
+
+.add:hover{
+	background: white;
+	color: #FF5252;
+}
+/*************************************/
+.new_poll{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: #777;
+
+}
+.new_poll h1{
+	color: #333;
+	text-transform: uppercase;
+	font-size: 36px;
+	margin-bottom: 40px
+}
+.event{
+	    
+}
+.event li{
+	list-style-type: none;
+	padding-top: 5px;
+}
+
+
+.underline1 {
+    height: 3px;
+    width: 75px;
+    background-color: #FF5252;
+    margin: 20px auto 75px;
+}
+.vs {
+    padding: 5px;
+    vertical-align: middle;
+    margin-right: 8px;
+    border-radius: 50px;
+    border: 3px solid #FF5252;
+    background: #FF5252;
+    color: white;
+}
+.team{
+
+}
